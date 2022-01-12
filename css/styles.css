@@ -35,9 +35,9 @@ img {
 
 .container {
   width: 100%;
-  max-width: 1450px;
-  padding-left: 50px;
-  padding-right: 50px;
+  max-width: 1180px;
+  padding-left: 25px;
+  padding-right: 25px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -46,79 +46,95 @@ img {
   flex-grow: 1;
 }
 
-.site-header{
-  width: 100%;
-  background-color: var(--menu-bg-color)
-}
-
-.site-menu {
+.sitenav-menu {
+  position: relative;
+  z-index: 50;
   display: flex;
   align-items: center;
   flex-wrap: wrap;
   list-style: none;
+  background-color: var(--menu-bg-color)
+}
+
+.sitenav-menu-list {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  align-items: center
 }
 
 .site-menu-item {
+  flex-grow: 1;
   position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 10px 12px 12px;
+
 }
 
 .site-menu-item:hover {
-
+  opacity: rgba (96, 125, 139, 0.8);
 }
 
-
-
+.site-menu-item:not(:last-child) {
+  margin-right: 5px;
+}
 
 .site-menu-item-link {
   display: block;
   text-decoration: none;
+  text-align: center;
   color: var(--color);
   font-size: 16px;
-}
+  padding: 12px;
 
-.site-menu-item-link:hover{
-opacity: rgba (96,125,139, 0.8);
+}
+.site-menu-item:hover .site-menu-item-link,
+.site-menu-item-link:hover {
+  background-color: rgb(201, 197, 197, 0.4);
 }
 
 /* DROPDOWN */
 
 .dropdown {
   display: block;
-  position: relative;
-  width: 100%;
-}
-
-.dropdown:hover .site-dropdown-menu {
-  display: block;
-}
-
-.site-menu-item-link {
-  text-decoration: none;
-  color: var(--color);
-  padding: 10px;
+  position: absolute;
 
 }
 
 .site-dropdown-menu {
   position: absolute;
+  left: 0;
   display: none;
+  padding: 0;
+  margin: 0;
+  list-style: none;
   width: 100%;
+}
+
+.site-menu-item:hover .site-dropdown-menu{
+  display: block;
+}
+
+
+.site-dropdown-menu-list-items{
+width: 100%;
+
 }
 
 .site-menu-item-dropdown-link {
   display: block;
-  position: absolute;
+  width: 100%;
   text-decoration: none;
   color: var(--color);
   padding: 12px;
-  width: 100%;
   background-color: var(--menu-bg-color);
+  white-space: nowrap;
 
 }
-.site-menu-item-dropdown-link:hover{
+
+.site-menu-item-dropdown-link:hover {
   opacity: 0.8;
 }
