@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500.8 500.8" style="enable-background:new 0 0 500.8 500.8" xml:space="preserve">
+  <path style="fill:#9aa5a4" d="M424 476c0 13.6-11.2 24.8-24.8 24.8h-360c-13.6 0-24.8-11.2-24.8-24.8V24.8C14.4 11.2 25.6 0 39.2 0h360C412.8 0 424 11.2 424 24.8V476z"/>
+  <path style="fill:#b3bcbb" d="M424 55.2V24.8C424 11.2 412.8 0 399.2 0h-360C25.6 0 14.4 11.2 14.4 24.8V464L424 55.2z"/>
+  <path style="fill:#fff" d="M37.6 24.8H120v30.4H37.6zM37.6 71.2H120v30.4H37.6zM37.6 118.4H120v30.4H37.6zM37.6 164.8H120v30.4H37.6zM37.6 212H120v30.4H37.6zM37.6 258.4H120v30.4H37.6zM37.6 305.6H120V336H37.6z"/>
+  <path style="fill:#f2f2f2" d="M37.6 352H120v30.4H37.6z"/>
+  <path style="fill:#fff" d="M119.2 352H37.6v30.4H96l23.2-23.2z"/>
+  <path style="fill:#f2f2f2" d="M37.6 399.2H120v30.4H37.6z"/>
+  <path style="fill:#fff" d="M37.6 399.2v30.4h12L80 399.2z"/>
+  <path style="fill:#f2f2f2" d="M37.6 445.6H120V476H37.6z"/>
+  <path style="fill:#fff" d="M318.4 24.8h82.4v30.4h-82.4z"/>
+  <path style="fill:#f2f2f2" d="M318.4 71.2h82.4v30.4h-82.4z"/>
+  <path style="fill:#fff" d="M400.8 71.2h-82.4v30.4h58.4l24-24z"/>
+  <path style="fill:#f2f2f2" d="M318.4 118.4h82.4v30.4h-82.4z"/>
+  <path style="fill:#fff" d="M318.4 118.4v30.4h12l30.4-30.4z"/>
+  <path style="fill:#f2f2f2" d="M318.4 164.8h82.4v30.4h-82.4zM318.4 212h82.4v30.4h-82.4zM318.4 258.4h82.4v30.4h-82.4zM318.4 305.6h82.4V336h-82.4zM318.4 352h82.4v30.4h-82.4zM318.4 399.2h82.4v30.4h-82.4zM318.4 445.6h82.4V476h-82.4zM135.2 257.6h168V476h-168z"/>
+  <path style="fill:#fff" d="M221.6 257.6h-86.4V344z"/>
+  <path style="fill:#f2f2f2" d="M135.2 24.8h168v218.4h-168z"/>
+  <path style="fill:#fff" d="M303.2 24.8h-168v218.4h100l68-67.2z"/>
+  <circle style="opacity:.3;fill:#9aa5a4;enable-background:new" cx="404" cy="417.6" r="82.4"/>
+  <circle style="fill:#5ac117" cx="393.6" cy="417.6" r="82.4"/>
+  <path style="fill:#44a307" d="M393.6 335.2c45.6 0 82.4 36.8 82.4 82.4S439.2 500 393.6 500"/>
+  <path style="fill:#4db20d" d="M335.2 359.2c32-32 84.8-32 116.8 0s32 84.8 0 116.8"/>
+  <path style="fill:#fff" d="M423.2 412h-24v-24c0-3.2-2.4-5.6-5.6-5.6s-5.6 2.4-5.6 5.6v24h-24c-3.2 0-5.6 2.4-5.6 5.6s2.4 5.6 5.6 5.6h24v24c0 3.2 2.4 5.6 5.6 5.6s5.6-2.4 5.6-5.6v-24h24c3.2 0 5.6-2.4 5.6-5.6s-2.4-5.6-5.6-5.6z"/>
+</svg>
